@@ -1,7 +1,12 @@
 #include<iostream.h>
-#include<conio.h>
-#include<math.h>
-void main()
+#include<coni
+int main() 
 {
-	float p,t,r,ci;
-	clrscr();
+   char c = 'a';
+   clrscr();
+   if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' )
+   cout <<c<< " is a Vowel" << endl;
+   else
+   cout <<c<< " is a Consonant" << endl;
+   getch();
+}
